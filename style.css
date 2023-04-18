@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(26, 26, 69);
+    color:white;
+}
+
+nav{
+    background-image: url('cloud.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 80px;
+}
+
+.my-4{
+    text-shadow: 0 0 2px blue,
+    0 0 3px blue,
+    0 0 5px white,
+    0 0 5px white;
+}
+
+.card-header{
+    background-color: blue;
+}
+
+.card-title{
+    color: black;
+}
+
+.list-unstyled li{
+    color: black;
+}
+
+h2{
+    margin-top: 50px;
+    color: cadetblue;
+    font-weight: bolder;
+}
+td{
+    color:pink;
+}
+
+
+th{
+    color:gainsboro;
+}
+
+@media screen and (max-width:768px)  {
+    .card{
+        width:70%;
+        display: flex;
+        margin-left: 70px;
+        flex-direction: column;
+    }
+}
