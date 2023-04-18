@@ -49,7 +49,7 @@ th{
     .card{
         width:80%;
         display: flex;
-        margin-left:40%;
+        margin-left:5%;
         flex-direction: column;
     }
 }
