@@ -47,9 +47,8 @@ th{
 
 @media screen and (max-width:768px)  {
     .card{
-        width:75%;
+        width:80%;
         display: flex;
-        margin-left: 65px;
         flex-direction: column;
     }
 }
